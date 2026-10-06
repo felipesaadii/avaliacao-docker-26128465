@@ -1,7 +1,7 @@
 # Respostas · Avaliação Prática de Docker · Cooperativa AgroVale (Turma A)
 
 Nome: Felipe Saadi Nesso
-Matrícula:26128465
+Matrícula: 26128465
 Usuário do GitHub: felipesaadii
 Usuário do Docker Hub: felipesaadii
 
@@ -11,6 +11,8 @@ do que texto longo copiado. Resposta que contradiz o seu próprio Dockerfile ou 
 ## Parte 1 · Dockerfile do portal
 
 1. Qual imagem base você usou e qual o tamanho final da imagem do portal (saída de `docker images`)?
+
+Usei a imagem base nginx:1.27-alpine. O tamanho final da imagem do portal foi 73.6 MB.
 
 2. Em qual pasta do container o Nginx procura os arquivos do site? Mostre o comando que você usou para
    conferir que o `index.html` está lá dentro.
@@ -62,6 +64,8 @@ Porque db é o nome do serviço do MariaDB no Docker Compose. Os containers cons
 
 9. Quais comandos você usou para derrubar e subir a stack? Qual comando teria apagado o post que você criou,
    e por quê?
+
+sei docker compose down para derrubar a stack e docker compose up -d para subi-la novamente. O comando que poderia apagar o post seria docker compose down -v, pois ele remove os volumes.
 
 10. Código de conclusão impresso pelo verificador:
 
