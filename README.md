@@ -31,3 +31,9 @@ Use os dois últimos dígitos da matrícula (XX). Matrícula terminada em 42:
 | Portal | 8000 + XX | 8042 |
 | Blog (WordPress) | 9000 + XX | 9042 |
 | Página de manutenção (teste da Parte 3) | 7000 + XX | 7042 |
+
+## Portas da aplicação
+
+- Portal: 8065
+- Blog WordPress: 9065
+- Página de manutenção: 7065
